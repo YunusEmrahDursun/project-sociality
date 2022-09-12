@@ -1,0 +1,39 @@
+.top{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: 50px;
+    float: left;
+}
+.top>div{
+    padding: 5px;
+}
+.top>div::before{
+    content: "●";
+    padding: 2px;
+}
+.top>div:nth-child(1):before{
+    color: #acacac;
+}
+.top>div:nth-child(2):before{
+    color: #3ac183;
+}
+.top>div:nth-child(3):before{
+    color: #f7bf38;
+}
+.top>div:nth-child(4):before{
+    color: #fb6450;
+}
+.top>div:nth-child(5):before{
+    color: #67b1f2;
+}
+.img{
+    width: 80px;
+    height: 80px;
+    display:flex;
+    margin-left: auto;
+}
+.container{
+    display:flex;
+    justify-content:flex-start;
+}
